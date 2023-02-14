@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --brand: #ff4d29;
+    --dark: #092032;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+
+a {
+    color: #092032;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+header {
+    background: #f7f7f7;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    padding-top: 3%;
+    float: left;
+    max-width: 20%;
+    height: auto;
+    
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px #171616;
+}
+
+.navbar nav {
+    float: right;
+}
+
+
+
+@media (max-width: 992px) {
+    .navtxt {
+        margin-top: 0;
+    }
+    }
+
+@media (min-width: 992px) {
+    .navtxt {
+        margin-top: 32;
+    }
+    }
+
+.start {
+    justify-content: space-between;
+}
+
+.harbg {
+    background-image:url("photos/harley1.png");
+}
+
+.borderb {
+    border: 2px solid black;
+    height: 200px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 div {
+    flex:1;
+}
+
+
+
+.par {
+    flex:1
+}
+
+.btn {
+    padding: 8px 26px;
+}
+
+.btn-brand {
+    border-color: var(--brand) !important;
+    background-color: var(--brand) !important;
+    color: #fff !important;
+}
+
+.btn-brand:hover {
+    background-color: #d64022 !important;
+    border-color: #d64022 !important;
+    color: #fff !important;
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+}
+
+.banner {
+    min-width: 100%;
+    height: 100%;
+    background-color: #d64022;
+    background-size: contain !important;
+    background-image: url(../photos/harley1.png);
+    background-repeat: no-repeat !important;
+    
+}
+
+.slide1 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../photos/harley1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 80%;
+}
+
+body {
+    margin 0 auto;
+}
+
+
+
+.space {
+    margin-top: 10%;
+}
+
+.info-box {
+    display: flex;
+    align-items: start;
+    border: 1px solid black;
+    border-style: ridge;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.info-box img {
+    height: 25% !important;
+    width: 25% !important;
+    width: unset;
+    margin-right: 22px;
+
+}
+
+.flexdis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
