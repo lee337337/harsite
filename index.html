@@ -1,290 +1,152 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/styles.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/boxicons.min.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/owl.theme.default.min.css">
-        
-        <script
-			  src="https://code.jquery.com/jquery-3.6.3.min.js"
-			  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-			  crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<html lang="en">
 
-        <title>Goddess Harley</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goddess Harley</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/line-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootsrap.bundle.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark p-3 sticky-top bg-danger" id="headerNav">
-        <div class="container-fluid">
-          <a class="navbar-brand d-block d-lg-none" href="#">
-            <img src="photos/logo.png" height="80" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-       
-          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto navop">
-              <li class="nav-item">
-                <a class="nav-link mx-2 active navtxt" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2 navtxt" href="#">About me</a>
-              </li>
-              <li class="nav-item d-none d-lg-block">
-                <a class="nav-link mx-2" href="#">
-                  <img src="photos/logo.png" height="80" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2 navtxt" href="#">Gallery</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link mx-2 navtxt" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Sessions
-                </a>
-                
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<body>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/aos.js"></script>
 
 
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <span class="h3 fw-bold d-block d-lg-none">Goddess Harley</span>
+                <img src="./images/person.jpeg" class="d-none d-lg-block rounded-circle" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
 
-
-      <!-- top slider-->
-      <div class="slider-wrappers bg-dark">
-        <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <h4 class ="text-white space">Serve your Goddess</h4>
-                <h1 class="display-2 my-3 text-white space">Goddess Harley</h1>
-                <a href="#" class="btn btn-brand space">Serve today</a>
-              </div>
+                </ul>
             </div>
-          </div>
         </div>
-      </div>
+    </nav>
+    
+    
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
 
-
-
-
-
-      <!-- About -->
-      <!--
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-1g-5">
-              <div class="row">
-                <div class="col-12 info-box">
-                  <div class="">
-                    <img src="./photos/harley2.png" alt="Goddess Harley" class="reduce25 img-fluid">
-                    <div> 
-                      <h5>Domination</h5>
-                      <p>Come and get dominated by Harley</p>
-                      
-                    </div>  
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
--->
-
-      <!-- V2  -->
-      <section id="about">
-        <div class="container">
-            <div class="row flexdis justify-content-center">
-                <div class="col-lg-5 py-5">
-                    <div class="row">
-
-                        <div class="col-12">
-                            <div class="info-box">
-                                <img src="photos/harley2.png" alt="" class="">
-                                <div class="ms-4 align-self-center">
-                                    <h5>Domination</h5>
-                                    <p>Come and get domianted by Harley</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <div class="info-box">
-                                <img src="photos/harley3.png" alt="">
-                                <div class="ms-4 align-self-center">
-                                    <h5>Humiliation</h5>
-                                    <p>Come and get humiliated by harley</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <div class="info-box">
-                                <img src="photos/harley4.png" alt="">
-                                <div class="ms-4 align-self-center">
-                                    <h5>Sadist</h5>
-                                    <p>Come and get tortured by harley</p>
-                                </div>
-                            </div>
-                        </div>
+        <!-- HOME -->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1g-8">
+                        <h1 class="display-4 fw-bold">I AM A TOP CLASS <span class="text-brand">GODDESS</span> LOOKING TO BE WORSHIPPED BY BETAS</h1>
+                        <p class="lead">My name is Harley, i am a domme offering a wide range of services</p>
+                        <a href="#work" class="btn btn-brand">See My Work</a>
+                        <a href="https://twitter.com/AllhailHarley" class="link-custom">Twitter</a>
                     </div>
                 </div>
-                <div class="col-lg-5" style="padding-left: 10%;">
-                    <img src="/photos/harley5.png" alt="">
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-
-
-    <!-- MILESTONE -->
-    <section id="milestone">
-      <div class="container">
-          <div class="row text-center justify-content-around gy-4">
-              <div class="col-lg-2 col-sm-6">
-                  <h1 class="display-4">3250+</h1>
-                  <p class="mb-0">Followers</p>
-              </div>
-          </div>
-      </div>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services" class="text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="intro">
-                    <h6>My Services</h6>
-                    <h1>What do i offer?</h1>
-                    <p class="mx-auto">I am a top class goddess offering a variety of services.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row g-4 d-flex align-items-center">
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <img src="photos/domination.jpeg" alt="">
-                    <h5>Domination</h5>
-                    <p>Get dominated by your goddess</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <img src="photos/humiliation.jpeg" alt="">
-                    <h5>Humiliation</h5>
-                    <p>Goddess harley will humiliate the hell out of you</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <img src="photos/sadism.jpeg" alt="">
-                    <h5>Sadism</h5>
-                    <p>Be prepepared to get detsroyed by your goddess</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <img src="photos/foot.jpg" alt="">
-                    <br>
-                    <br>
-                    <br>
-                    <h5>Foot worship</h5>
-
-                    <p>Worship your goddes's perfect feet</p>
+        <!-- SERVICES -->
+        <section id="services" class="full-height px-lg">
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="col-lg-8">
+                        <h4 class="text-brand">Services</h4>
+                        <h1>Services I Provide</h1>
                         
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <img src="photos/cbt.jpg" alt="">
-                    <br>
-                    <br>
-                    <br>
-                    <h5>CBT</h5>
-                    <p>Get your balls obliterated</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <img src="photos/assworship.jpeg" alt="">
-                    <h5>Ass worship</h5>
-                    <p>If you lay down enough money you may get the honour of worshiping my perfect ass</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-  <!-- Portfolio -->
-<section class="bg-light" id="portfolio">
-  <div class="container">
-      <div class="row">
-          <div class="col-12">
-              <div class="intro">
-                  <h6>Work</h6>
-                  <h1>Portfolio</h1>
-                  <p class="mx-auto">Your perfect goddess</p>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div id="projects-slider" class="owl-theme owl-carousel">
-      <div class="project">
-          <div class="overlay"></div>
-          <img src="photos/port1.jpg" alt="">
-          <div class="content">
-              <h2>Consulting Marketing</h2>
-              <h6>Website Design</h6>
-          </div>
-      </div>
-      <div class="project">
-          <div class="overlay"></div>
-          <img src="photos/port2.jpg" alt="">
-          <div class="content">
-              <h2>Consulting Marketing</h2>
-              <h6>Website Design</h6>
-          </div>
-      </div>
-      <div class="project">
-          <div class="overlay"></div>
-          <img src="photos/port3.jpg" alt="">
-          <div class="content">
-              <h2>Consulting Marketing</h2>
-              <h6>Website Design</h6>
-          </div>
-      </div>
-      <div class="project">
-          <div class="overlay"></div>
-          <img src="photos/port4.jpg" alt="">
-          <div class="content">
-              <h2>Consulting Marketing</h2>
-              <h6>Website Design</h6>
-          </div>
-      </div>
-      <div class="project">
-          <div class="overlay"></div>
-          <img src="photos/port5.jpg" alt="">
-          <div class="content">
-              <h2>Consulting Marketing</h2>
-              <h6>Website Design</h6>
-          </div>
-      </div>
-  </div>
-</section>
+                <div class="row">
+
+                    <div class="col-md-4" >
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="">
+                                <img src="./images/assworship.jpeg" class="smlpic" alt="">
+                            </div>
+                            <h5 class="mt-4 mb-2">Ass worship</h5>
+                            <p>Come and worship my perfect ass</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="">
+                                <img src="./images/sadism.jpeg" class="smlpic" alt="">
+                            </div>
+                            <h5 class="mt-4 mb-2">Foot worship</h5>
+                            <p>Imagine being allowed to suck on the bottom of my heel</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="">
+                                <img src="./images/degradation.jpeg" class="smlpic" alt="">
+                            </div>
+                            <h5 class="mt-4 mb-2">Humiliation</h5>
+                            <p>Come and get humiliated</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <h1>TEST</h1>
+
+            <div class="d-flex">
+                <div>
+                    <p>Test</p>
+                </div>
+                <div>
+                    <p>Test</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
 </body>
+
+    
+
 </html>
